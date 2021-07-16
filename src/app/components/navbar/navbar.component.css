@@ -1,0 +1,41 @@
+.nav-b{
+    width: 100%;
+}
+
+.nb-contain{
+    background-color: #434343;
+    min-height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.nb-contain ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.submenu{
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+
+.submenu ul li{
+    margin: 0px 10px;
+    display: inline-block;
+    list-style: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-top: 4px solid transparent;
+    transition: 300ms ease all;
+
+}
+
+.submenu ul li:hover{
+    border-top: 3px solid #0b466d;
+    color: rgb(138, 48, 146);
+}
